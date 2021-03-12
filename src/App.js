@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import Sidebar from './components/Sidebar'
-import Main from './components/Main'
+import Sidebar from './component/main/Sidebar'
+import Main from './component/main/Main'
 function App() {
   return(
     <div className="wrapper">
